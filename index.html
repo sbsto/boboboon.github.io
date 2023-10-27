@@ -22,13 +22,15 @@
         <section id="section1">
             <h2>Section 1</h2>
             <p>Content for section 1 goes here.</p>
-            <img src="images/image1.jpg" alt="Image 1 Description">
+            <div id="apod-container">
+                <img id="apod-image" alt="Astronomy Picture of the Day">
+                <p id="apod-description"></p>
+            </div>
         </section>
 
         <section id="section2">
             <h2>Section 2</h2>
             <p>Content for section 2 goes here.</p>
-            <img src="images/image2.jpg" alt="Image 2 Description">
         </section>
         <!-- Add more sections as needed -->
     </main>
@@ -37,7 +39,7 @@
         <p>&copy; 2023 Your Name</p>
     </footer>
 
-    <!-- JavaScript for the continuous animation -->
+    <!-- JavaScript to fetch and display the APOD -->
     <script src="script.js"></script>
 </body>
 </html>

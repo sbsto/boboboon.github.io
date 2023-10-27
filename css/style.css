@@ -63,3 +63,19 @@ section img {
     margin: 20px auto;
     font-size: 24px;
 }
+
+
+#apod-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#apod-image {
+    max-width: 100%;
+    height: auto;
+}
+
+#apod-description {
+    margin-top: 10px;
+    font-style: italic;
+}
