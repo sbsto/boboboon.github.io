@@ -1,10 +1,17 @@
 // script.js
 
-// Function to hide the loading animation when the page is fully loaded
-function hideLoader() {
-    var loader = document.querySelector(".loading");
-    loader.style.display = "none";
+// Function to add animated text elements
+function addAnimatedText() {
+    var main = document.querySelector("main");
+
+    // Create a div for the animated text
+    var animationDiv = document.createElement("div");
+    animationDiv.classList.add("continuous-animation");
+    animationDiv.textContent = "Welcome to Your Website!"; // Change this text as needed
+
+    // Append the animated text to the main content
+    main.appendChild(animationDiv);
 }
 
-// Add an event listener to trigger the hideLoader function when the page is fully loaded
-window.addEventListener("load", hideLoader);
+// Add the animated text when the page is loaded
+window.addEventListener("load", addAnimatedText);
